@@ -2,6 +2,8 @@
 
 **Sentence2Song** is an algorithmic music generation system that creates emotionally expressive compositions from user-inputted text. By integrating sentiment analysis, musical structure, and machine learning, this project transforms written input into melodies and harmonies that reflect the emotional landscape of the text.
 
+![Image](https://github.com/user-attachments/assets/05252cc1-3dae-42d9-a7b6-2c9e139c5226)
+
 ---
 
 ## 📜 Overview
