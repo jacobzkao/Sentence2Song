@@ -1,4 +1,4 @@
-# 🎶 Sentence2Song
+# Sentence2Song
 
 **Sentence2Song** is an algorithmic music generation system that creates emotionally expressive compositions from user-inputted text. By integrating sentiment analysis, musical structure, and machine learning, this project transforms written input into melodies and harmonies that reflect the emotional landscape of the text.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📜 Overview
+## Overview
 
 Given a string of text, Sentence2Song:
 
@@ -18,7 +18,7 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 🧠 Core Ideas
+## Core Ideas
 
 - **Emotion → Music Mapping**: The sentiment score determines key musical elements:
   - High positivity → Major key, fast tempo, low dissonance
@@ -32,18 +32,18 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 🛠 Implementation Details
+## Implementation Details
 
-### 📥 Input
+### Input
 - Free-form user text
 - NLP model from HuggingFace to extract sentiment score(s)
 
-### 🎼 Melody Generation
+### Melody Generation
 - We insert the words of the input sentence into 3 data structures (RB-Tree, Circular buffer, and Hash Table)
 - Melody is encoded as: [(scale degree (1–7), accidental (-1, 0, 1), duration (0.0–4.0)), ...]
 - Three algorithms used for melody generation, each tied to a data structure concept.
 
-### 🎹 Harmony Generation
+### Harmony Generation
 - Harmony is generated using a neural network:
 - Input: melody sequence
 - Output: harmony sequence
@@ -57,7 +57,7 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 🧪 Model Training
+## Model Training
 
 - LSTM-based model using Keras
 - Trained on existing music datasets with labeled sentiment/dissonance
@@ -65,7 +65,7 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 🎨 Visualization & Output
+## Visualization & Output
 
 - Sheet music displayed using Music21
 - Harmonies shown in bass clef
@@ -74,7 +74,7 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 📚 Resources Used
+## Resources Used
 
 - **Music21**: For musical representation and visualization
 - **Keras / TensorFlow**: For LSTM neural network training
@@ -84,7 +84,7 @@ Given a string of text, Sentence2Song:
 
 ---
 
-## 🗣 Future Directions
+## Future Directions
 
 - Expand from sentiment to full emotional spectrum (e.g., joy, sadness, anger)
 - More advanced LP structure: key modulations, transitions between movements
